@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TP8Mouammar</string>
+    <string name="choisissez_une_image_charger">Choisissez une image à charger...</string>
+    <string name="latitude">Latitude :</string>
+    <string name="longitude">Longitude :</string>
+    <string name="coordon_es">Coordonées</string>
+    <string name="display_pictures">Display pictures</string>
+    <string name="acceuil">Acceuil</string>
+    <string name="photos_x_km">Photos (x Km)</string>
+</resources>

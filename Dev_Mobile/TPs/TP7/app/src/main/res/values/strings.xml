@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ContentProviderMouammar</string>
+    <string name="gestion_de_l_agenda">Gestion de l\'agenda</string>
+    <string name="g_rer_l_agenda">Gérer l\'agenda</string>
+    <string name="visualiser">Visualiser</string>
+    <string name="ordre_alphab_tique">Ordre alphabétique</string>
+    <string name="a_z">A-Z</string>
+    <string name="z_a">Z-A</string>
+    <string name="retour">RETOUR</string>
+</resources>

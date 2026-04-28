@@ -1,0 +1,6 @@
+projectKey=monopoly
+serverUrl=http://localhost:9000
+serverVersion=25.9.0.112764
+dashboardUrl=http://localhost:9000/dashboard?id=monopoly
+ceTaskId=414be450-12ee-40e7-95a6-127a7b974aee
+ceTaskUrl=http://localhost:9000/api/ce/task?id=414be450-12ee-40e7-95a6-127a7b974aee

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TP4Mouammar</string>
+    <string name="intentions_implicites">Intentions Implicites</string>
+    <string name="mouammar_soul_2025_2026_to_dev_mobile">© Mouammar Soulé 2025_2026 to Dev Mobile</string>
+    <string name="geo">GEO</string>
+    <string name="web">WEB</string>
+    <string name="mms">MMS</string>
+    <string name="sms">SMS</string>
+    <string name="appeler">APPELER</string>
+</resources>

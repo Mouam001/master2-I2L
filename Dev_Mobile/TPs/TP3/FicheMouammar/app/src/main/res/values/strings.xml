@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">FicheMouammar</string>
+    <string name="fiche_contact">FICHE CONTACT</string>
+    <string name="inconnu">Inconnu</string>
+    <string name="pr_nom">Prénom :</string>
+    <string name="t_l_phone">Téléphone :</string>
+    <string name="nom">Nom :</string>
+    <string name="modifier_identite">MODIFIER IDENTITE</string>
+    <string name="num_ro">Numéro</string>
+    <string name="rue">Rue</string>
+    <string name="code_postale">Code Postale</string>
+    <string name="ville">Ville</string>
+    <string name="modifier_adresse">MODIFIER ADRESSE</string>
+    <string name="saisie_identite">SAISIE IDENTITE</string>
+    <string name="entrer_le_nom">Entrer le nom</string>
+    <string name="entrer_le_t_l_phone">Entrer le Téléphone</string>
+    <string name="valider">Valider</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+    <string name="saisie_adresse">SAISIE ADRESSE</string>
+    <string name="entrer_le_num_ro">Entrer le Numéro</string>
+    <string name="entrer_la_ville">Entrer la Ville</string>
+    <string name="entrer_le_code_postale">Entrer le code Postale</string>
+    <string name="entrer_la_rue">Entrer la Rue</string>
+</resources>

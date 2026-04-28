@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TP4Mouammar</string>
+    <string name="intentions_implicites">Intentions Implicites</string>
+    <string name="mouammar_soul_2025_2026_to_dev_mobile">© Mouammar Soulé 2025_2026 to Dev Mobile</string>
+    <string name="geo">GEO</string>
+    <string name="web">WEB</string>
+    <string name="mms">MMS</string>
+    <string name="sms">SMS</string>
+    <string name="appeler">APPELER</string>
+    <string name="saisie_t_l_phone">Saisie Téléphone</string>
+    <string name="num_ro">Numéro</string>
+    <string name="saisir_un_num_ro">Saisir un numéro</string>
+    <string name="message">Message</string>
+    <string name="saisir_votre_message">Saisir votre message</string>
+    <string name="saisie_d_un_message">Saisie d\'un message</string>
+    <string name="annuler">ANNULER</string>
+    <string name="valider">VALIDER</string>
+    <string name="saisir_une_url">Saisir une URL</string>
+    <string name="url">URL</string>
+    <string name="saisie_coordonn_es">Saisie Coordonnées</string>
+    <string name="longitude">Longitude</string>
+    <string name="saisir_une_longitude">Saisir une longitude</string>
+    <string name="saisir_une_latitude">Saisir une latitude</string>
+    <string name="lattitude">Lattitude</string>
+</resources>

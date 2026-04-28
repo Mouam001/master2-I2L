@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TestIntent02</string>
+    <string name="texte_saisie">saisie_du_texte</string>
+    <string name="modifier">Modifier</string>
+    <string name="valider"> Valider</string>
+    <string name="hint_modification">hint_modification</string>
+</resources>

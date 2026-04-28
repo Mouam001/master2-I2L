@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Examen21-22</string>
+    <string name="saisie_des_joueurs">SAISIE DES JOUEURS</string>
+    <string name="demarrer_une_partie">DEMARRER UNE PARTIE</string>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TestIntent03</string>
+    <string name="texte_saisie">saisie_du_texte</string>
+    <string name="modifier">Modifier</string>
+    <string name="valider"> Valider</string>
+    <string name="hint_modification">hint_modification</string>
+    <string name="majuscule">Majuscule</string>
+    <string name="inverser">Inverser</string>
+    <string name="textview">TextView</string>
+    <string name="modification_propos_e">Modification proposée</string>
+    <string name="valeur_courante_de_la_chaine">Valeur courante de la chaine</string>
+</resources>

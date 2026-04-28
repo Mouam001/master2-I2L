@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+<!-- Toolbar -->
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_700"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:title="TP3"
+        app:titleTextColor="@android:color/white"
+        />
+
+    <!-- Texte princpale -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fiche_contact"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp" />
+
+    <!-- Bloc identité -->
+    <TextView
+        android:id="@+id/labelNom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nom"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:id="@+id/valueNom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/inconnu"
+        app:layout_constraintBaseline_toBaselineOf="@+id/labelNom"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="32dp" />
+
+    <TextView
+        android:id="@+id/labelPrenom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pr_nom"
+        app:layout_constraintTop_toBottomOf="@+id/labelNom"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/valuePrenom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/inconnu"
+        app:layout_constraintBaseline_toBaselineOf="@+id/labelPrenom"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="32dp" />
+
+    <TextView
+        android:id="@+id/labelTel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/t_l_phone"
+        app:layout_constraintTop_toBottomOf="@+id/labelPrenom"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/valueTel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/inconnu"
+        app:layout_constraintBaseline_toBaselineOf="@+id/labelTel"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="32dp" />
+
+    <Button
+        android:id="@+id/btnModifierIdentite"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/modifier_identite"
+        android:backgroundTint="@color/purple_700"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@+id/labelTel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp" />
+
+    <!-- Bloc Adresse -->
+    <TextView
+        android:id="@+id/labelNumero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/num_ro"
+        app:layout_constraintTop_toBottomOf="@+id/btnModifierIdentite"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:id="@+id/valueNumero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/inconnu"
+        app:layout_constraintBaseline_toBaselineOf="@+id/labelNumero"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="32dp" />
+
+    <TextView
+        android:id="@+id/labelRue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rue"
+        app:layout_constraintTop_toBottomOf="@+id/labelNumero"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/valueRue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/inconnu"
+        app:layout_constraintBaseline_toBaselineOf="@+id/labelRue"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="32dp" />
+
+    <TextView
+        android:id="@+id/labelCP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/code_postale"
+        app:layout_constraintTop_toBottomOf="@+id/labelRue"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/valueCP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/inconnu"
+        app:layout_constraintBaseline_toBaselineOf="@+id/labelCP"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="32dp" />
+
+    <TextView
+        android:id="@+id/labelVille"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ville"
+        app:layout_constraintTop_toBottomOf="@+id/labelCP"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/valueVille"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/inconnu"
+        app:layout_constraintBaseline_toBaselineOf="@+id/labelVille"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="32dp" />
+
+    <Button
+        android:id="@+id/btnModifierAdresse"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/modifier_adresse"
+        android:backgroundTint="@color/purple_700"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@+id/labelVille"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

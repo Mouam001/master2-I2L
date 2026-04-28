@@ -1,0 +1,38 @@
+
+.toolbar {
+    -fx-border-style: solid;
+    -fx-border-width: 0px 0px 1px 0px;
+    -fx-border-color: darkgrey;
+}
+
+.drawingPane {
+    -fx-background-color: white;
+}
+
+.rectangle {
+    -fx-fill: greenyellow;
+    -fx-stroke: green;
+    -fx-stroke-width: 3;
+}
+
+.ellipse {
+    -fx-fill: yellow;
+    -fx-stroke: orange;
+    -fx-stroke-width: 3;
+}
+
+.triangle {
+    -fx-fill: #a9c2ff;
+    -fx-stroke: #525d80;
+    -fx-stroke-width: 3;
+}
+
+.statutbar {
+    -fx-border-style: solid;
+    -fx-border-width: 1px 0px 0px 0px;
+    -fx-border-color: darkgrey;
+}
+
+.selected{
+    -fx-effect:dropshadow(gaussian,cornflowerblue,8,0.7,0,0);
+}

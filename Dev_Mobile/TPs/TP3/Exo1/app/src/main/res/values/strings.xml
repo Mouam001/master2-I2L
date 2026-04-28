@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">TestIntent01</string>
+    <string name="ecrire_un_message">ecrire_un_message</string>
+    <string name="envoyer">Envoyer</string>
+    <string name="message_re_u">message_reçu</string>
+</resources>

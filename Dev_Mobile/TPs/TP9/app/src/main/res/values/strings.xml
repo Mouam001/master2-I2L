@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Documentation</string>
+    <string name="entrez_votre_nom">Entrez votre nom</string>
+    <string name="sauvegarder">Sauvegarder</string>
+    <string name="nom_sauvegard">Nom sauvegardé :</string>
+    <string name="preference_file_key">com.example.tp9_preferences</string>
+</resources>

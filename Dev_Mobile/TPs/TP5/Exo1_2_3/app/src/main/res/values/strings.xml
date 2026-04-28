@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TPimageMouammar</string>
+    <string name="uri_vide">uri_vide</string>
+    <string name="btn_charger">btn_charger</string>
+    <string name="image_name">image_name</string>
+    <string name="miroir_horizontal">Miroir horizontal</string>
+    <string name="miroir_vertical">Miroir vertical</string>
+    <string name="inverser_les_couleurs">Inverser les couleurs</string>
+    <string name="transformer_en_niveau_de_gris">Transformer en niveau de gris</string>
+    <string name="rotation_anti_horaire">Rotation Anti-Horaire</string>
+    <string name="rotation_horaire">Rotation Horaire</string>
+    <string name="annuler">Annuler</string>
+</resources>

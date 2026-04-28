@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TodoMoummar</string>
+    <string name="t_che_ajouter">Tâche à ajouter</string>
+    <string name="valider">VALIDER</string>
+    <string name="annuler">ANNULER</string>
+    <string name="effacer_selectionn_s">Effacer selectionnés</string>
+</resources>

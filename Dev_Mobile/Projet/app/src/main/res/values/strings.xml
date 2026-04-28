@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">projetMouammar</string>
+    <string name="bienvenue_dans_le_challenge_des_questionnnaires_de_mouammar">Bienvenue dans le challenge des questionnnaires de Mouammar</string>
+    <string name="pr_histoire">Préhistoire</string>
+    <string name="scores">VOIR SCORES</string>
+    <string name="valider">VALIDER</string>
+    <string name="stopper">STOPPER</string>
+    <string name="ok">OK</string>
+    <string name="bienvenue_dans_le_qcm">Bienvenue dans le QCM</string>
+    <string name="quitter">QUITTER</string>
+    <string name="admin">AJOUT QUESTIONNAIRE</string>
+    <string name="demarrer_qcm">DEMARRER QCM</string>
+    <string name="reset">RESET SCORES</string>
+    <string name="se_connecter">Se Connecter</string>
+    <string name="mot_de_passe_admin">Mot de passe Admin</string>
+</resources>

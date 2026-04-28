@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Option pour miroir horizontal -->
+    <item
+        android:id="@+id/action_miroir_h"
+        android:title="@string/miroir_horizontal"
+        app:showAsAction="never" />
+
+    <!-- Option pour miroir vertical -->
+    <item
+        android:id="@+id/action_miroir_v"
+        android:title="@string/miroir_vertical"
+        app:showAsAction="never" />
+
+    <!-- Option pour rotation horaire à 90° -->
+    <item
+        android:id="@+id/action_horaire"
+        android:title="@string/rotation_horaire"
+        app:showAsAction="never" />
+
+    <!-- Option pour rotation anti-horaire à 90 -->
+    <item
+        android:id="@+id/action_antiHoraire"
+        android:title="@string/rotation_anti_horaire"
+        app:showAsAction="never" />
+
+</menu>

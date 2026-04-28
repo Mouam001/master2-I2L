@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/action_inverser"
+            android:title="@string/inverser_les_couleurs"/>
+
+        <item
+            android:id="@+id/action_gris"
+            android:title="@string/transformer_en_niveau_de_gris"/>
+
+</menu>
